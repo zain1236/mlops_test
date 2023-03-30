@@ -32,7 +32,6 @@ def train():
     # Evaluate the model's performance using a suitable metric
     score = model.score(X_test, y_test)
     score *= 10
-    print("score")
 
     # Return the accuracy score as a JSON object
     return jsonify(score=score)
