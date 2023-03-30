@@ -2,8 +2,7 @@ name: zain.yaml
 
 on:
   push:
-    branches:
-      - Zain
+    branches: [ Zain , musa ]
 
   
 jobs:
