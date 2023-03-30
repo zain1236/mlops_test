@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - zain
-      - '!main'
+      - musa
 
   
 jobs:
