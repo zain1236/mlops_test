@@ -31,7 +31,7 @@ def train():
     y_pred = model.predict(X_test)
     # Evaluate the model's performance using a suitable metric
     score = model.score(X_test, y_test)
-    score *= 100
+    score *= 1000
 
     # Return the accuracy score as a JSON object
     return jsonify(score=score)
