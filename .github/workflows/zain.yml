@@ -3,7 +3,7 @@ name: zain.yml
 on:
   push:
     branches:
-      - 'Zain'
+      - Zain
 
   
 jobs:
@@ -12,9 +12,14 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+        
+      - name: Print message
+        run: echo "Workflow triggered on zain branch"
+      
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
+          
       - name: Build code
         run: |
           python3 main.py
