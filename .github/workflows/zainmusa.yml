@@ -3,7 +3,7 @@ name: zainmusa.yml
 on:
   push:
     branches:
-      - zain
+      - Zain
       - musa
 
   
