@@ -3,8 +3,8 @@ name: zainmusa.yml
 on:
   push:
     branches:
-      - Zain
-      - musa
+      - 'Zain'
+      - 'musa'
 
   
 jobs:
